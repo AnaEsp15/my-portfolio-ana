@@ -80,7 +80,36 @@
     </div>
   </section>
 
+  <section class="my-gallery">
+    <div class="row">
+        <!-- Contenedor 4 -->
+        <div class="col-lg-4 col-md-6 mb-4">
+            <div class="custom-gallery-item shadow">
+                <img src="../assets/gallery3.jpeg" class="custom-img-fluid" alt="Imagen 1">
+                <h5 class="custom-subtitle">4</h5>
+                <p class="custom-description">Lorem ipsum dolor, sit amet consectetur adipisicing elit. Ducimus nesciunt, dolore suscipit voluptatem facere fuga incidunt, corrupti expedita exercitationem vero molestiae. Maxime pariatur animi distinctio expedita est officia velit doloremque!</p>
+            </div>
+        </div>
 
+        <!-- Contenedor 5 -->
+        <div class="col-lg-4 col-md-6 mb-4">
+            <div class="custom-gallery-item shadow">
+                <img src="../assets/gallery3.jpeg" class="custom-img-fluid" alt="Imagen 1">
+                <h5 class="custom-subtitle">5</h5>
+                <p class="custom-description">Lorem ipsum dolor, sit amet consectetur adipisicing elit. Ducimus nesciunt, dolore suscipit voluptatem facere fuga incidunt, corrupti expedita exercitationem vero molestiae. Maxime pariatur animi distinctio expedita est officia velit doloremque!</p>
+            </div>
+        </div>
+
+        <!-- Contenedor 6 -->
+        <div class="col-lg-4 col-md-6 mb-4">
+            <div class="custom-gallery-item shadow">
+                <img src="../assets/gallery3.jpeg" class="custom-img-fluid" alt="Imagen 1">
+                <h5 class="custom-subtitle">6</h5>
+                <p class="custom-description">Lorem ipsum dolor, sit amet consectetur adipisicing elit. Ducimus nesciunt, dolore suscipit voluptatem facere fuga incidunt, corrupti expedita exercitationem vero molestiae. Maxime pariatur animi distinctio expedita est officia velit doloremque!</p>
+            </div>
+        </div>
+    </div>
+  </section>
 
 
   
@@ -122,46 +151,47 @@
 
   <!-- Footer -->
   <footer class="footer-section bg-dark text-white pt-5 pb-4">
-      <div class="container">
-          <div class="row justify-content-center">
-              <!-- About Us Section -->
-              <div class="col-md-4 col-sm-12 mb-4">
-                  <h5>About Us</h5>
-                  <p>Lorem ipsum dolor sit amet, consectetur adipiscing elit. Nullam non urna nec nisi tincidunt volutpat.</p>
-              </div>
+    <div class="container-fluid">
+        <div class="row justify-content-center text-center">
+            <!-- About Us Section -->
+            <div class="col-md-4 col-sm-12 mb-4">
+                <h5>About Us</h5>
+                <p>Lorem ipsum dolor sit amet, consectetur adipiscing elit. Nullam non urna nec nisi tincidunt volutpat.</p>
+            </div>
 
-              <!-- Quick Links Section -->
-              <div class="col-md-4 col-sm-12 mb-4">
-                  <h5>Quick Links</h5>
-                  <ul class="list-unstyled">
-                      <li><a href="#Home" class="quick-link">Home</a></li>
-                      <li><a href="#About" class="quick-link">About</a></li>
-                      <li><a href="#Gallery" class="quick-link">Gallery</a></li>
-                      <li><a href="#Contact" class="quick-link">Contact</a></li>
-                  </ul>
-              </div>
+            <!-- Quick Links Section -->
+            <div class="col-md-4 col-sm-12 mb-4">
+                <h5>Quick Links</h5>
+                <ul class="list-unstyled">
+                    <li><a href="#Home" class="quick-link">Home</a></li>
+                    <li><a href="#About" class="quick-link">About</a></li>
+                    <li><a href="#Gallery" class="quick-link">Gallery</a></li>
+                    <li><a href="#Contact" class="quick-link">Contact</a></li>
+                </ul>
+            </div>
 
-              <!-- Contact Section -->
-              <div class="col-md-4 col-sm-12 mb-4">
-                  <h5>Contact</h5>
-                  <p>Email: 2314041@utrivieramaya.edu.mx</p>
-                  <p>Phone: +52 9841427515</p>
-              </div>
-          </div>
+            <!-- Contact Section -->
+            <div class="col-md-4 col-sm-12 mb-4">
+                <h5>Contact</h5>
+                <p>Email: 2314041@utrivieramaya.edu.mx</p>
+                <p>Phone: +52 9841427515</p>
+            </div>
+        </div>
 
-          <!-- Derechos reservados -->
-          <div class="mt-3 text-center">
-              <p class="mb-0">&copy; 2025. By Ana Espinoza. All rights reserved.</p>
-          </div>
+        <!-- Derechos reservados -->
+        <div class="mt-3 text-center">
+            <p class="mb-0">&copy; 2025. By Ana Espinoza. All rights reserved.</p>
+        </div>
 
-         
+        <!-- Botón de subir -->
         <div class="text-center mt-3">
             <a href="#top" class="text-light">
-                <i class='bx bxs-chevron-up' style='color:#ffffff'></i>
+                <i class='bx bxs-chevron-up' style='color:rgb(255, 1, 73); font-size: 24px;'></i>
             </a>
         </div>
-      </div>
-  </footer>
+    </div>
+</footer>
+
 </template>
 
 <script>
@@ -208,7 +238,7 @@ header {
 }
 
 .navbar-nav .nav-link:hover {
-  color: black;
+  color: #F05966;
 }
 
 .navbar-toggler {
@@ -262,7 +292,7 @@ header {
   width: 220px;
   height: 220px;
   object-fit: cover;
-  border-radius: 50%;
+  border-radius: 10%;
   border: 5px solid black;
   box-shadow: 0 0 30px rgb(110, 17, 160);
   transition: all 0.3s ease;
@@ -270,7 +300,7 @@ header {
 
 .about img:hover {
   transform: scale(1.05);
-  box-shadow: 0 0 30px rgba(52, 152, 219, 0.6);
+  box-shadow: 0 0 30px #F05966;
 }
 
 .about .right-section {
@@ -393,7 +423,7 @@ header {
 .custom-subtitle {
   font-size: 1.25rem;
   font-weight: bold;
-  color: #007bff;
+  color: #d620e0;
   margin-top: 15px;
 }
 
@@ -453,11 +483,14 @@ header {
 }
 
 .form-control:focus {
-  box-shadow: 0 0 5px rgba(0, 123, 255, 0.5);
+  box-shadow: 0 0 5px rgba(255, 0, 234, 0.5);
 }
 
 .btn button:hover {
-  background-color: #0056b3;
+  background-color: #d620e0 !important;
+}
+.btn {
+  background-color: #F05966;
 }
 
 .d-flex {
@@ -515,10 +548,11 @@ header {
 }
 
 .footer-section {
-  background-color: black !important;
+  background-color:rgb(77, 14, 110) !important;
   color: white;
   padding-top: 50px;
   padding-bottom: 30px;
+  
 }
 
 .footer-section a {
@@ -528,7 +562,7 @@ header {
 }
 
 .footer-section a:hover {
-  color: #ffcc00;
+  color: #F05966;
 }
 
 .footer-section .row {
